@@ -1,0 +1,128 @@
+body{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.navigation ul{
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+.pull-quote{
+    margin: 0 auto;
+    width: 200;
+}
+
+.navigation  li.logo {
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 4px;
+  }
+
+  a{
+    display: inline-block;
+    background-color: green;
+    border: 3px solid red;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+  }
+
+  a:hover{
+    background-color: black;
+    border: 1px solid tomato;
+  }
+
+  .share {
+    border: 1px solid lightgray;
+    padding: 50px 10px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+  }
+
+  .byline {
+    border-bottom: 3px solid black;
+    border-top: 3px solid black;
+    color: red;
+    font-size: 15px;
+    font-weight: 200;
+  }
+
+  p {
+    color: blueviolet;
+    font-size: 20px;
+    margin-top: 30px;
+    padding: 10x 10px;
+  }
+
+  h3 {
+    color: tomato;
+    font-size: 26px;
+    font-weight: 100;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  h2 {
+    border: 1px dotted red;
+    color: red;
+    font-size: 14px;
+    line-height: 48px;
+    padding: 20px 30px;
+    margin: 30px 40px;
+    text-align: center;
+  }
+
+  h1 {
+    color: burlywood;
+    font-size: 42px;
+    font-weight: 900;
+    text-align: center;
+  }
+
+  #main {
+    margin: 100px auto;
+    padding: 40px;
+    text-align: center;
+    width: 400px;
+    height: 900px;
+    overflow: scroll;
+  }
+
+  #banner .content h1 {
+    border: 3px dotted black;
+    position: relative;
+    top: 50px;
+    width: 400px;
+    margin: 0 auto;
+  }
+
+  #banner {
+    background-image: url("/kenny\ pics.jpg");
+    background-size: contain;
+    background-position:top;
+    height: 500px;
+    width: 100%;
+  }
+  .donate {
+    visibility: hidden;
+  }
+
+  .navigation li {
+    font-weight: 500;
+    letter-spacing: 5px;
+    padding: 20px;
+  }
+
+  .navigation ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
